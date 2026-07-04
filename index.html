@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anish Gupta | Full Stack Developer | PHP Laravel Developer</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: #030712; }
+        .heading-font { font-family: 'Space Grotesk', sans-serif; }
+        .tech-pill { border: 1px solid rgba(255, 255, 255, 0.05); background: rgba(255, 255, 255, 0.02); }
+        .tech-pill:hover { border-color: rgba(56, 189, 248, 0.3); background: rgba(56, 189, 248, 0.03); }
+        .neon-border { position: relative; }
+        .neon-border::after { content: ''; position: absolute; inset: 0; border-radius: inherit; padding: 1px; background: linear-gradient(to bottom right, rgba(56,189,248,0.2), transparent); pointer-events: none; -webkit-mask: linear-gradient(#fff 0 0) content-box, linear-gradient(#fff 0 0); -webkit-mask-composite: xor; mask-composite: exclude; }
+    </style>
+</head>
+<body class="text-slate-300 antialiased selection:bg-sky-500 selection:text-white">
+
+    <!-- Top Ambient Glow -->
+    <div class="absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-7xl h-[500px] bg-gradient-to-b from-sky-500/10 via-indigo-500/5 to-transparent blur-[120px] pointer-events-none -z-10"></div>
+
+    <!-- Sticky Navigation -->
+    <nav class="fixed top-0 left-0 w-full z-50 bg-[#030712]/70 backdrop-blur-md border-b border-white/5">
+        <div class="max-w-6xl mx-auto px-6 h-16 flex items-center justify-between">
+            <a href="#" class="heading-font text-lg font-bold tracking-tight text-white flex items-center gap-2">
+                <span class="w-2 h-2 rounded-full bg-sky-400 animate-pulse"></span> anishgupta.dev
+            </a>
+            <div class="hidden md:flex items-center space-x-8 text-xs font-mono uppercase tracking-wider text-slate-400">
+                <a href="#about" class="hover:text-white transition">About</a>
+                <a href="#stack" class="hover:text-white transition">Stack</a>
+                <a href="#experience" class="hover:text-white transition">Experience</a>
+                <a href="#projects" class="hover:text-white transition">Projects</a>
+            </div>
+            <a href="mailto:anishgupta550@gmail.com" class="px-4 py-2 text-xs font-semibold text-white bg-white/5 border border-white/10 rounded-lg hover:bg-white/10 transition font-mono">Contact()</a>
+        </div>
+    </nav>
+
+    <!-- Hero Framework -->
+    <main class="max-w-6xl mx-auto px-6 pt-32 pb-16">
+        <section id="about" class="grid md:grid-cols-12 gap-12 items-start">
+            <div class="md:col-span-8 space-y-6">
+                <div class="inline-flex items-center gap-2 px-3 py-1 text-xs font-mono text-sky-400 bg-sky-500/5 rounded-full border border-sky-500/10">
+                    <span class="flex h-2 w-2 relative"><span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-sky-400 opacity-75"></span><span class="relative inline-flex rounded-full h-2 w-2 bg-sky-500"></span></span>
+                    Senior Full Stack Engineer
+                </div>
+                <h1 class="heading-font text-5xl md:text-7xl font-bold tracking-tight text-white leading-none">
+                    Engineering reliable backend systems & dynamic webs.
+                </h1>
+                <p class="text-lg text-slate-400 max-w-2xl leading-relaxed">
+                    Results-driven Full Stack Developer with <span class="text-white font-medium">3+ years of professional experience</span>. Specialized in architecting robust, secure backend workflows using PHP (Laravel, CodeIgniter) and Node.js, mapped to high-fidelity frontend execution.
+                </p>
+                
+                <!-- Micro Contact Grid -->
+                <div class="flex flex-wrap gap-3 pt-4 font-mono text-xs">
+                    <a href="https://in.linkedin.com/in/anish-gupta-89073824b" target="_blank" class="flex items-center gap-2 px-3 py-2 bg-white/[0.02] border border-white/5 rounded-lg hover:bg-white/[0.05] hover:border-white/10 transition"><i class="fab fa-linkedin text-sky-400"></i> LinkedIn</a>
+                    <a href="https://github.com/anishgupta550" target="_blank" class="flex items-center gap-2 px-3 py-2 bg-white/[0.02] border border-white/5 rounded-lg hover:bg-white/[0.05] hover:border-white/10 transition"><i class="fab fa-github"></i> GitHub</a>
+                    <a href="mailto:anishgupta550@gmail.com" class="flex items-center gap-2 px-3 py-2 bg-white/[0.02] border border-white/5 rounded-lg hover:bg-white/[0.05] hover:border-white/10 transition"><i class="far fa-envelope text-rose-400"></i> anishgupta550@gmail.com</a>
+                    <a href="tel:+919958483626" class="flex items-center gap-2 px-3 py-2 bg-white/[0.02] border border-white/5 rounded-lg hover:bg-white/[0.05] hover:border-white/10 transition"><i class="fas fa-phone text-emerald-400"></i> +91 9958483626</a>
+                </div>
+            </div>
+
+            <!-- Profile Sidebar Meta -->
+            <div class="md:col-span-4 bg-white/[0.01] border border-white/5 rounded-2xl p-6 space-y-6 neon-border">
+                <div>
+                    <h3 class="text-xs font-mono uppercase tracking-wider text-slate-500 mb-2">Base Operations</h3>
+                    <p class="text-sm font-medium text-white flex items-center gap-2"><i class="fas fa-map-marker-alt text-slate-400"></i> Najafgarh, New Delhi, India</p>
+                </div>
+                <div>
+                    <h3 class="text-xs font-mono uppercase tracking-wider text-slate-500 mb-2">Academic Blueprint</h3>
+                    <p class="text-sm font-medium text-white">Master of Arts</p>
+                    <p class="text-xs text-slate-400">IGNOU University (2022 - 2024)</p>
+                    <p class="text-sm font-medium text-white mt-2">Bachelor of Arts</p>
+                    <p class="text-xs text-slate-400">Delhi University (2019 - 2021)</p>
+                </div>
+                <div>
+                    <h3 class="text-xs font-mono uppercase tracking-wider text-slate-500 mb-2">System Safeguards</h3>
+                    <div class="flex flex-wrap gap-1.5 mt-1 text-[10px] font-mono">
+                        <span class="px-2 py-0.5 rounded bg-rose-500/10 border border-rose-500/20 text-rose-400">SQLi Prevention</span>
+                        <span class="px-2 py-0.5 rounded bg-rose-500/10 border border-rose-500/20 text-rose-400">XSS/CSRF Protection</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Dynamic Tech Stack Grid -->
+        <section id="stack" class="pt-24 space-y-8">
+            <div class="border-b border-white/5 pb-4">
+                <h2 class="heading-font text-2xl font-bold text-white">Full Stack Ecosystem</h2>
+                <p class="text-sm text-slate-400">Granular breakdown of languages, runtimes, environments, and toolchains.</p>
+            </div>
+            <div class="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
+                <!-- Group 1 -->
+                <div class="p-5 bg-white/[0.01] border border-white/5 rounded-xl space-y-3">
+                    <h4 class="text-xs font-mono text-slate-400 uppercase tracking-widest">Languages & Backends</h4>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">PHP</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Laravel</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">CodeIgniter</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Node.js</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Express.js</span>
+                    </div>
+                </div>
+                <!-- Group 2 -->
+                <div class="p-5 bg-white/[0.01] border border-white/5 rounded-xl space-y-3">
+                    <h4 class="text-xs font-mono text-slate-400 uppercase tracking-widest">Interface layers</h4>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">React.js</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Vue.js</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Tailwind CSS</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">JavaScript (ES6+)</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Bootstrap</span>
+                    </div>
+                </div>
+                <!-- Group 3 -->
+                <div class="p-5 bg-white/[0.01] border border-white/5 rounded-xl space-y-3">
+                    <h4 class="text-xs font-mono text-slate-400 uppercase tracking-widest">Data Stores & APIs</h4>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">MySQL</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">MongoDB</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">RESTful APIs</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">AJAX / JSON</span>
+                    </div>
+                </div>
+                <!-- Group 4 -->
+                <div class="p-5 bg-white/[0.01] border border-white/5 rounded-xl space-y-3">
+                    <h4 class="text-xs font-mono text-slate-400 uppercase tracking-widest">DevOps & Tooling</h4>
+                    <div class="flex flex-wrap gap-1.5">
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">AWS</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">VPS KVM</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Git & GitHub</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">cPanel</span>
+                        <span class="tech-pill px-2.5 py-1 text-xs text-slate-300 rounded">Postman</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Employment & Internships Section -->
+        <section id="experience" class="pt-24 space-y-8">
+            <div class="border-b border-white/5 pb-4">
+                <h2 class="heading-font text-2xl font-bold text-white">Employment & Internships</h2>
+                <p class="text-sm text-slate-400">Timeline tracking professional history from training phases to senior engineering.</p>
+            </div>
+            
+            <div class="space-y-6 relative before:absolute before:top-2 before:left-3 before:bottom-2 before:w-[1px] before:bg-white/10">
+                
+                <!-- Senior Developer -->
+                <div class="relative pl-8 group">
+                    <div class="absolute left-[9px] top-2 w-2 h-2 rounded-full bg-sky-400 border border-[#030712] ring-4 ring-sky-400/20"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-1">
+                        <div>
+                            <h3 class="text-base font-semibold text-white">Sr. Full Stack Developer</h3>
+                            <p class="text-xs text-slate-400">Web Technoedge Solutions Pvt. Ltd.</p>
+                        </div>
+                        <span class="text-xs font-mono text-sky-400 md:bg-white/[0.02] md:border md:border-white/5 md:px-2 md:py-1 md:rounded-md">Oct 2024 — Feb 2026</span>
+                    </div>
+                    <ul class="mt-2 text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li>Core focus on backend development using PHP, Laravel, and Node.js.</li>
+                        <li>Designed, developed, and integrated secure RESTful APIs and authentication workflows.</li>
+                        <li>Managed MySQL database design, query optimization, code reviews, and team task allocation.</li>
+                    </ul>
+                </div>
+
+                <!-- Full Stack Developer -->
+                <div class="relative pl-8 group">
+                    <div class="absolute left-[9px] top-2 w-2 h-2 rounded-full bg-slate-700 border border-[#030712]"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-1">
+                        <div>
+                            <h3 class="text-base font-semibold text-white">Full Stack Developer</h3>
+                            <p class="text-xs text-slate-400">Markle Tech & Media Pvt. Ltd.</p>
+                        </div>
+                        <span class="text-xs font-mono text-slate-500 md:bg-white/[0.02] md:border md:border-white/5 md:px-2 md:py-1 md:rounded-md">Aug 2023 — July 2024</span>
+                    </div>
+                    <ul class="mt-2 text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li>Developed and maintained client web applications using PHP and Laravel frameworks.</li>
+                        <li>Optimized backend logic, API integration routes, and executed production-level error support.</li>
+                    </ul>
+                </div>
+
+                <!-- Web Developer -->
+                <div class="relative pl-8 group">
+                    <div class="absolute left-[9px] top-2 w-2 h-2 rounded-full bg-slate-700 border border-[#030712]"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-1">
+                        <div>
+                            <h3 class="text-base font-semibold text-white">Web Developer</h3>
+                            <p class="text-xs text-slate-400">Hedkey India Pvt. Ltd.</p>
+                        </div>
+                        <span class="text-xs font-mono text-slate-500 md:bg-white/[0.02] md:border md:border-white/5 md:px-2 md:py-1 md:rounded-md">July 2022 — July 2023</span>
+                    </div>
+                    <ul class="mt-2 text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li>Designed responsive web applications and managed theme/plugin architectures inside WordPress.</li>
+                        <li>Provided specialized IT training and structural web development roadmaps to incoming students.</li>
+                    </ul>
+                </div>
+
+                <!-- Internship -->
+                <div class="relative pl-8 group">
+                    <div class="absolute left-[9px] top-2 w-2 h-2 rounded-full bg-indigo-500/50 border border-[#030712] ring-2 ring-indigo-500/10"></div>
+                    <div class="flex flex-col md:flex-row md:justify-between md:items-start gap-1">
+                        <div>
+                            <h3 class="text-base font-semibold text-white flex items-center gap-2">Web Designer Intern <span class="text-[10px] uppercase font-mono tracking-wider px-1.5 py-0.5 bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 rounded">Internship</span></h3>
+                            <p class="text-xs text-slate-400">Sit Hub</p>
+                        </div>
+                        <span class="text-xs font-mono text-indigo-400 md:bg-white/[0.02] md:border md:border-white/5 md:px-2 md:py-1 md:rounded-md">Apr 2022 — June 2022</span>
+                    </div>
+                    <ul class="mt-2 text-xs text-slate-400 space-y-1 list-disc list-inside">
+                        <li>Built fundamental layouts using front-end components and responsive design grids.</li>
+                        <li>Assisted with WordPress customizations and basic product rendering flows.</li>
+                    </ul>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Production Projects (Links Removed Entirely) -->
+        <section id="projects" class="pt-24 space-y-8">
+            <div class="border-b border-white/5 pb-4">
+                <h2 class="heading-font text-2xl font-bold text-white">Featured Projects Portfolio</h2>
+                <p class="text-sm text-slate-400">Detailed overview of end-to-end engineered web and cloud systems.</p>
+            </div>
+            
+            <div class="grid md:grid-cols-2 gap-6">
+
+                <!-- Faujistore -->
+                <div class="p-6 bg-white/[0.01] border border-white/5 rounded-xl flex flex-col justify-between neon-border">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-start">
+                            <h3 class="heading-font text-lg font-bold text-white">Faujistore</h3>
+                            <span class="text-[10px] font-mono uppercase bg-indigo-500/10 text-indigo-400 border border-indigo-500/20 px-2 py-0.5 rounded">E-Commerce Web Application</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Developed a complete MVC structured e-commerce stack. Engineered robust backend business controllers, integrated AJAX for responsive dynamic loading, and set up secure role-based session data architectures.
+                        </p>
+                        <p class="text-[10px] font-mono text-sky-400">CodeIgniter (PHP), MySQL, HTML, CSS, JavaScript, AJAX</p>
+                    </div>
+                </div>
+
+                <!-- Candlepool -->
+                <div class="p-6 bg-white/[0.01] border border-white/5 rounded-xl flex flex-col justify-between neon-border">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-start">
+                            <h3 class="heading-font text-lg font-bold text-white">Candlepool</h3>
+                            <span class="text-[10px] font-mono uppercase bg-amber-500/10 text-amber-400 border border-amber-500/20 px-2 py-0.5 rounded">Learning Management System</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Architected an enterprise LMS platform supporting specialized Admin, Teacher, and Student workflows. Integrated custom quiz models, structured progress calculation logic, and responsive admin dashboard monitoring grids.
+                        </p>
+                        <p class="text-[10px] font-mono text-sky-400">PHP, Laravel, MySQL, HTML, CSS, JavaScript, AJAX</p>
+                    </div>
+                </div>
+
+                <!-- FHocket -->
+                <div class="p-6 bg-white/[0.01] border border-white/5 rounded-xl flex flex-col justify-between neon-border">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-start">
+                            <h3 class="heading-font text-lg font-bold text-white">FHocket</h3>
+                            <span class="text-[10px] font-mono uppercase bg-sky-500/10 text-sky-400 border border-sky-500/20 px-2 py-0.5 rounded">Service Marketplace Platform</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Built a comprehensive local service marketplace platform (similar to UrbanClap). Configured complex payment processing workflows, integrated service provider management systems, and implemented dynamic AJAX status search modules.
+                        </p>
+                        <p class="text-[10px] font-mono text-sky-400">PHP, Laravel, MySQL, Angular, HTML, CSS, JavaScript, AJAX</p>
+                    </div>
+                </div>
+
+                <!-- Pecskart -->
+                <div class="p-6 bg-white/[0.01] border border-white/5 rounded-xl flex flex-col justify-between neon-border">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-start">
+                            <h3 class="heading-font text-lg font-bold text-white">Pecskart</h3>
+                            <span class="text-[10px] font-mono uppercase bg-rose-500/10 text-rose-400 border border-rose-500/20 px-2 py-0.5 rounded">Medical Equipment Marketplace</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Designed and deployed an optimized B2B medical supply online store setup. Handled inventory management models, engineered search query architectures, and verified robust data optimization schemas.
+                        </p>
+                        <p class="text-[10px] font-mono text-sky-400">PHP, Laravel, MySQL, HTML, CSS, JavaScript, AJAX</p>
+                    </div>
+                </div>
+
+                <!-- Runner -->
+                <div class="p-6 bg-white/[0.01] border border-white/5 rounded-xl flex flex-col justify-between neon-border">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-start">
+                            <h3 class="heading-font text-lg font-bold text-white">Runner</h3>
+                            <span class="text-[10px] font-mono uppercase bg-emerald-500/10 text-emerald-400 border border-emerald-500/20 px-2 py-0.5 rounded">Delivery & Logistics Application</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Engineered a robust backend system for a logistics platform. Integrated multi-layered access workflows for Admin, Agents, and Customers alongside real-time task allocation tracking logic.
+                        </p>
+                        <p class="text-[10px] font-mono text-sky-400">PHP (Laravel), MySQL, RESTful APIs, AJAX, HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+
+                <!-- Digit Transway -->
+                <div class="p-6 bg-white/[0.01] border border-white/5 rounded-xl flex flex-col justify-between neon-border">
+                    <div class="space-y-3">
+                        <div class="flex justify-between items-start">
+                            <h3 class="heading-font text-lg font-bold text-white">Digit Transway</h3>
+                            <span class="text-[10px] font-mono uppercase bg-purple-500/10 text-purple-400 border border-purple-500/20 px-2 py-0.5 rounded">Truck Logistics & Tracking</span>
+                        </div>
+                        <p class="text-xs text-slate-400 leading-relaxed">
+                            Developed a secure backend layout for handling heavy consignment logistics weighed in tons. Structured real-time transactional driver queues and highly optimized data scheduling indices.
+                        </p>
+                        <p class="text-[10px] font-mono text-sky-400">PHP (Laravel), MySQL, RESTful APIs, AJAX, HTML, CSS, JavaScript</p>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer System -->
+    <footer class="max-w-6xl mx-auto px-6 py-12 border-t border-white/5 mt-20 text-center font-mono text-[11px] text-slate-600">
+        <p>Executed by Anish Gupta &copy; 2022 - <script>document.write(new Date().getFullYear());</script></p>
+    </footer>
+
+</body>
+</html>
